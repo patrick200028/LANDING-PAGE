@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(90deg, #1E90FF 0%, #00008B 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    background-color: rgb(132, 13, 201);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    /* Adicionando borda arredondada ao cabeçalho */
+    margin: 0%;
+    /* Remove a margem ao redor do cabeçalho */
+    width: 100%;
+    /* Garante que o cabeçalho ocupe toda a largura da página */
+
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 13, 201);
+    transition: color 0.3s;
+}
+
+
+
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 5vw;
+    /* Tamanho da fonte responsivo baseado na largura da tela */
+    line-height: 1.2;
+    /* Ajuste do espaçamento entre as linhas */
+    font-family: sans-serif;
+    text-align: center;
+    /* Centraliza o texto */
+    margin: 0 auto;
+    /* Centraliza o h2 no contêiner */
+    padding: 10px;
+    /* Espaçamento interno para evitar que o texto encoste nas bordas */
+    max-width: 100%;
+    /* Garante que o h2 ocupe toda a largura disponível */
+}
+
+
+span {
+    color: rgb(132, 13, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 720px;
+    width: 100%;
+    max-width: 720px;
+    /* Ajuste de tamanho máximo */
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-sizing: content-box;
+
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 15px;
+    font-size: 15px;
+}
+
+button {
+    background-color: rgb(132, 13, 201);
+    color: white;
+    height: 50px;
+    width: 50%;
+    bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+i {
+    display: inline-flex;
+    align-items: center;
+    /* Alinha o ícone verticalmente */
+    justify-content: center;
+    /* Alinha horizontalmente se necessário */
+}
